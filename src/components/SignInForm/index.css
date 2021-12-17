@@ -1,0 +1,138 @@
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+
+  font-family: 'roboto';
+}
+.website-container {
+  display: flex;
+  height: 100%;
+  margin: 50px;
+}
+.welcome-section {
+  background-color: #585961;
+  width: 60%;
+  height: 70%;
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.welcome-heading {
+  color: #ffffff;
+  font-size: 32px;
+  width: 60%;
+}
+.welcome-text {
+  color: #ffffff;
+  font-size: 13px;
+  width: 60%;
+}
+.signup-section {
+  background-color: #ffffff;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signin-heading {
+}
+.signin-text {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+.signin-option {
+  color: #498bc9;
+  background-color: transparent;
+  border: none;
+  font-size: 11px;
+}
+.website-logo {
+  height: 80px;
+  width: 110px;
+  margin: 30px;
+}
+.label-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 14px;
+  color: #878180;
+  margin-bottom: 5px;
+}
+.input-box {
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  max-width: 100%;
+}
+.error-msg {
+  color: red;
+  font-size: 11px;
+}
+.signin-button {
+  background-color: #2839bd;
+  color: #ffffff;
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 25px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.signup-button {
+  background-color: #4cba49;
+  color: #ffffff;
+  height: 50px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+}
+.remember-text {
+  font-size: 11px;
+}
+.remember-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.forgot-text {
+  font-size: 11px;
+  color: #498bc9;
+}
+.rem-forgot-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.icon {
+  font-size: 30px;
+}
+.continue-text {
+  font-size: 12px;
+  color: #8f91a1;
+  text-align: center;
+}
+.highlight-text {
+  color: #498bc9;
+}
+.terms-section {
+  display: flex;
+  align-items: center;
+}
+.terms-text {
+  font-size: 11px;
+}
